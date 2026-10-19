@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": "1.0.0",
+  "updatedAt": "2026-10-18",
+  "country": "CO",
+  "countryName": "Colombia",
+  "description": "Catálogo inicial de ejemplo para la aplicación Señales de Tránsito Colombia.",
+  "categories": [
+    {
+      "id": "reglamentarias",
+      "name": "Señales reglamentarias",
+      "description": "Indican obligaciones, prohibiciones o restricciones."
+    },
+    {
+      "id": "preventivas",
+      "name": "Señales preventivas",
+      "description": "Advierten sobre condiciones o riesgos en la vía."
+    },
+    {
+      "id": "informativas",
+      "name": "Señales informativas",
+      "description": "Orientan y suministran información al usuario vial."
+    },
+    {
+      "id": "transitorias",
+      "name": "Señales transitorias",
+      "description": "Informan sobre condiciones temporales, como obras."
+    }
+  ],
+  "signs": [
+    {
+      "id": "SR-01",
+      "code": "SR-01",
+      "name": "Pare",
+      "categoryId": "reglamentarias",
+      "description": "Indica que el conductor debe detener completamente el vehículo y continuar solo cuando sea seguro y esté permitido.",
+      "imagePath": "images/reglamentarias/SR-01-pare.png",
+      "imageAlt": "Señal reglamentaria de Pare",
+      "tags": [
+        "detención",
+        "prioridad",
+        "reglamentaria"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "SR-02",
+      "code": "SR-02",
+      "name": "Ceda el paso",
+      "categoryId": "reglamentarias",
+      "description": "Indica que se debe ceder la prioridad a los vehículos que circulan por la vía a la que se accede.",
+      "imagePath": "images/reglamentarias/SR-02-ceda-el-paso.png",
+      "imageAlt": "Señal reglamentaria de Ceda el paso",
+      "tags": [
+        "prioridad",
+        "intersección",
+        "reglamentaria"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "SP-EJEMPLO-01",
+      "code": "SP-EJEMPLO-01",
+      "name": "Curva peligrosa",
+      "categoryId": "preventivas",
+      "description": "Ejemplo de registro preventivo. Verifica el código y el nombre exactos con la fuente normativa que utilices antes de publicar.",
+      "imagePath": "images/preventivas/curva-peligrosa.png",
+      "imageAlt": "Imagen de ejemplo de señal preventiva de curva",
+      "tags": [
+        "curva",
+        "precaución",
+        "preventiva"
+      ],
+      "isActive": false
+    },
+    {
+      "id": "SI-EJEMPLO-01",
+      "code": "SI-EJEMPLO-01",
+      "name": "Destino o dirección",
+      "categoryId": "informativas",
+      "description": "Registro de ejemplo para una señal informativa. Sustituye este contenido por una señal validada.",
+      "imagePath": "images/informativas/destino-direccion.png",
+      "imageAlt": "Imagen de ejemplo de señal informativa",
+      "tags": [
+        "orientación",
+        "destino",
+        "informativa"
+      ],
+      "isActive": false
+    },
+    {
+      "id": "ST-EJEMPLO-01",
+      "code": "ST-EJEMPLO-01",
+      "name": "Obras en la vía",
+      "categoryId": "transitorias",
+      "description": "Registro de ejemplo para señalización temporal de obras. Verifica el diseño y código normativo antes de publicarlo.",
+      "imagePath": "images/transitorias/obras-en-la-via.png",
+      "imageAlt": "Imagen de ejemplo de señal transitoria de obras",
+      "tags": [
+        "obras",
+        "temporal",
+        "transitoria"
+      ],
+      "isActive": false
+    }
+  ]
+}
