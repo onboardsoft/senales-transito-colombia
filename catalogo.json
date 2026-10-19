@@ -34,7 +34,7 @@
       "name": "Pare",
       "categoryId": "reglamentarias",
       "description": "Indica que el conductor debe detener completamente el vehículo y continuar solo cuando sea seguro y esté permitido.",
-      "imagePath": "images/reglamentarias/SR-01-pare.png",
+      "imagePath": "images/reglamentarias/SR-01.png",
       "imageAlt": "Señal reglamentaria de Pare",
       "tags": [
         "detención",
@@ -49,7 +49,7 @@
       "name": "Ceda el paso",
       "categoryId": "reglamentarias",
       "description": "Indica que se debe ceder la prioridad a los vehículos que circulan por la vía a la que se accede.",
-      "imagePath": "images/reglamentarias/SR-02-ceda-el-paso.png",
+      "imagePath": "images/reglamentarias/SR-02.png",
       "imageAlt": "Señal reglamentaria de Ceda el paso",
       "tags": [
         "prioridad",
@@ -59,49 +59,49 @@
       "isActive": true
     },
     {
-      "id": "SP-EJEMPLO-01",
-      "code": "SP-EJEMPLO-01",
+      "id": "SP-01",
+      "code": "SP-01",
       "name": "Curva peligrosa",
       "categoryId": "preventivas",
       "description": "Ejemplo de registro preventivo. Verifica el código y el nombre exactos con la fuente normativa que utilices antes de publicar.",
-      "imagePath": "images/preventivas/curva-peligrosa.png",
+      "imagePath": "images/preventivas/SP-01.png",
       "imageAlt": "Imagen de ejemplo de señal preventiva de curva",
       "tags": [
         "curva",
         "precaución",
         "preventiva"
       ],
-      "isActive": false
+      "isActive": true
     },
     {
-      "id": "SI-EJEMPLO-01",
-      "code": "SI-EJEMPLO-01",
+      "id": "SI-01",
+      "code": "SI-01",
       "name": "Destino o dirección",
       "categoryId": "informativas",
       "description": "Registro de ejemplo para una señal informativa. Sustituye este contenido por una señal validada.",
-      "imagePath": "images/informativas/destino-direccion.png",
+      "imagePath": "images/informativas/SI-01.png",
       "imageAlt": "Imagen de ejemplo de señal informativa",
       "tags": [
         "orientación",
         "destino",
         "informativa"
       ],
-      "isActive": false
+      "isActive": true
     },
     {
-      "id": "ST-EJEMPLO-01",
-      "code": "ST-EJEMPLO-01",
+      "id": "ST-01",
+      "code": "ST-01",
       "name": "Obras en la vía",
       "categoryId": "transitorias",
       "description": "Registro de ejemplo para señalización temporal de obras. Verifica el diseño y código normativo antes de publicarlo.",
-      "imagePath": "images/transitorias/obras-en-la-via.png",
+      "imagePath": "images/transitorias/ST-01.png",
       "imageAlt": "Imagen de ejemplo de señal transitoria de obras",
       "tags": [
         "obras",
         "temporal",
         "transitoria"
       ],
-      "isActive": false
+      "isActive": true
     }
   ]
 }
