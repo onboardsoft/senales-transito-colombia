@@ -4,7 +4,7 @@
   "updatedAt": "2026-10-18",
   "country": "CO",
   "countryName": "Colombia",
-  "description": "Catálogo inicial de ejemplo para la aplicación Señales de Tránsito Colombia.",
+  "description": "Señales de Tránsito Colombia.",
   "categories": [
     {
       "id": "reglamentarias",
@@ -58,14 +58,61 @@
       ],
       "isActive": true
     },
+	,
+    {
+      "id": "SR-03",
+      "code": "SR-0",
+      "name": "Siga de frente",
+      "categoryId": "reglamentarias",
+      "description": "Indica la obligación de seguir de frente.",
+      "imagePath": "images/reglamentarias/SR-03.png",
+      "imageAlt": "Señal reglamentaria de Siga de frente",
+      "tags": [
+        "prioridad",
+        "intersección",
+        "reglamentaria"
+      ],
+      "isActive": true
+    },
+	,
+    {
+      "id": "SR-04",
+      "code": "SR-04",
+      "name": "No pase",
+      "categoryId": "reglamentarias",
+      "description": "Indica la prohibicion de entrar en una zona restringida al tránsito.",
+      "imagePath": "images/reglamentarias/SR-04.png",
+      "imageAlt": "Señal reglamentaria de No pase",
+      "tags": [
+        "prioridad",
+        "intersección",
+        "reglamentaria"
+      ],
+      "isActive": true
+    },
     {
       "id": "SP-01",
       "code": "SP-01",
-      "name": "Curva peligrosa",
+      "name": "Curva peligrosa a la izquierda",
       "categoryId": "preventivas",
-      "description": "Ejemplo de registro preventivo. Verifica el código y el nombre exactos con la fuente normativa que utilices antes de publicar.",
+      "description": "Indica la proximidad de una curva peligrosa a la izquierda.",
       "imagePath": "images/preventivas/SP-01.png",
-      "imageAlt": "Imagen de ejemplo de señal preventiva de curva",
+      "imageAlt": "Señal preventiva de curva a la izquierda",
+      "tags": [
+        "curva",
+        "precaución",
+        "preventiva"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "SP-02",
+      "code": "SP-02",
+      "name": "Curva peligrosa a la derecha",
+      "categoryId": "preventivas",
+      "description": "Indica la proximidad de una curva peligrosa a la derecha.",
+      "imagePath": "images/preventivas/SP-02.png",
+      "imageAlt": "Señal preventiva de curva a la derecha",
       "tags": [
         "curva",
         "precaución",
@@ -76,11 +123,11 @@
     {
       "id": "SI-01",
       "code": "SI-01",
-      "name": "Destino o dirección",
+      "name": "Ruta nacional",
       "categoryId": "informativas",
-      "description": "Registro de ejemplo para una señal informativa. Sustituye este contenido por una señal validada.",
+      "description": "Ruta nacional.",
       "imagePath": "images/informativas/SI-01.png",
-      "imageAlt": "Imagen de ejemplo de señal informativa",
+      "imageAlt": "Señal informativa Ruta nacional",
       "tags": [
         "orientación",
         "destino",
@@ -91,11 +138,11 @@
     {
       "id": "ST-01",
       "code": "ST-01",
-      "name": "Obras en la vía",
+      "name": "Banderillero",
       "categoryId": "transitorias",
-      "description": "Registro de ejemplo para señalización temporal de obras. Verifica el diseño y código normativo antes de publicarlo.",
+      "description": "Indica que rutas o caminos que estan siendo pavimento o arreglados.",
       "imagePath": "images/transitorias/ST-01.png",
-      "imageAlt": "Imagen de ejemplo de señal transitoria de obras",
+      "imageAlt": "Señal transitoria Banderillero",
       "tags": [
         "obras",
         "temporal",
